@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+
+
+body{
+	background-color:#fac562;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container{
+	background-color: #f8f8f8;
+	padding: 30px;
+	width: 500px;
+	border-radius: 15px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.title{
+	color: #333;
+}
+.las{
+	color:#fac562;
+	font-size: 36px;
+}
+
+.laps{
+	margin-top: 100px;
+	background-color: #9a9999;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+#stopwatchDuration{
+	font-size: 55px;
+	color:#666;
+	padding: 20px;
+	justify-content: center;
+	position:fixed ;
+	align-items:flex-start;
+	cursor: pointer;
+
+}
+#stopwatchDuration:hover{
+	color: #fac562;
+}
+
+.lapsButtons{
+	display: flex;
+	justify-content:space-between;
+	padding: 20px;
+	
+}
+
+
+
+
+.lapsButtons button{
+	height: 45px;
+	width: 30%;
+	border-radius: 5px;
+	background-color:#666;
+	border: none;
+	outline: none;
+	margin: 10px;
+	cursor: pointer;
+	font-size:18px;
+	font-weight:bolder;
+	transition: 0.3s all ease-in-out;
+	position: initial;
+}
+
+.lapsButtons button:hover{
+	background-color: #fac562;
+	color: #f8f8f8;
+	height: 50px;
+	width: 35%;
+	border-radius: 8px;
+	position:static;
+	margin: 5px;
+	padding: 0px;
+	font-size: 20px;	
+}
+
+#laps{
+	height: 200px;
+	padding: 10px;
+	padding-top: 0;
+	overflow: auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #9a9999;
+
+	
+	
+}
+
+#laps li{
+	font-size: 22px;
+	padding: 10px;
+	background-color: #f8f8f8;
+	border-radius:px;
+	overflow: hidden;
+	
+}
+
+#laps li:last-child{
+	margin-bottom: px;
+}
+
+
+
+
+#stop,#reset{
+	background-color: rgb(255, 0, 0);
+}
+
+#stop:hover,#reset:hover{
+	transition: 0.3 all ease-in-out;
+	background-size:150%;
+	
+}
+
+
+
+
+
+
+
+
